@@ -1,7 +1,7 @@
 .env
 .ruby-version
+.idea
 
 /.bundle
 /log/*.log
 /vendor/bundle/
-

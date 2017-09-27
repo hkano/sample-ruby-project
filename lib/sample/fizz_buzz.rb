@@ -4,7 +4,7 @@ module Sample
   class FizzBuzz
 
     def initialize(count)
-      @count = count.to_i
+      @count = count.present? ? count.to_i : 100
     end
 
     def execute
@@ -23,4 +23,3 @@ module Sample
 
   end
 end
-
