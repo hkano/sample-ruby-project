@@ -6,6 +6,7 @@ require "open-uri"
 require "./lib/sample/crawler"
 require "./lib/sample/day_time"
 require "./lib/sample/fizz_buzz"
+require "./lib/sample/space"
 
 namespace :sample do
   desc "Crawler"
@@ -21,5 +22,10 @@ namespace :sample do
   desc "FizzBuzz"
   task :fizz_buzz, [:count] do |task, args|
     Sample::FizzBuzz.new(args[:count]).execute
+  end
+
+  desc "Space"
+  task :space do
+    Sample::Space.new().execute
   end
 end
