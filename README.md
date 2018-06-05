@@ -11,7 +11,7 @@ bundle install --path vendor/bundle
 ```
 $ bundle exec rake -vT
 rake sample:crawler[url]      # Crawler
-rake sample:csv_to_sql[url]      # CsvToSql
+rake sample:csv_to_sql[url]   # CsvToSql
 rake sample:day_time[time]    # DayTime
 rake sample:fizz_buzz[count]  # FizzBuzz
 rake sample:space             # Space
