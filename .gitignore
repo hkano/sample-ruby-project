@@ -3,5 +3,7 @@
 .idea
 
 /.bundle
+/files/inputs/*
+/files/outputs/*
 /log/*.log
 /vendor/bundle/
